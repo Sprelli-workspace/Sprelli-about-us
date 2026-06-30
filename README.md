@@ -119,14 +119,16 @@ The platform operates in full compliance with Polish and European law:
 
 ## Project Scale
 
-- **50+ pages** and subpages in the application
-- **2 user panels** (student + tutor) with full API integration
-- **Admin panel** with moderation, analytics, payouts and marketing tools
-- **25 SEO landing pages** by subject and city
+- **116 pages** and subpages in the application
+- **Student panel** — 16 dedicated pages with full API integration
+- **Tutor panel** — 18 dedicated pages with full API integration
+- **Admin panel** — 40+ pages covering moderation, analytics, payouts, marketing and verification
+- **47 reusable components** across the frontend
+- **33 SEO landing pages** by subject and city
 - **Educational blog** with articles for students and parents
-- **15+ transactional email templates** (verification, booking, reminders, invoices)
-- **6 types of educational mini-games** with a built-in editor for tutors
-- **Referral program** with codes and XP bonuses
+- **27 transactional email templates** (welcome, booking, cancellation, reschedule, refund, verification, group lessons, password reset and more)
+- **6 types of educational mini-games** with a built-in creator for tutors
+- **Referral program** with unique codes and XP bonuses
 
 ---
 
