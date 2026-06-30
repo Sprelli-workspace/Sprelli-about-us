@@ -1,142 +1,142 @@
-# Sprelli — Platforma Korepetycji Online
+# Sprelli — Online Tutoring Platform
 
-**Sprelli** to nowoczesny marketplace edukacyjny łączący uczniów z zweryfikowanymi korepetytorami w Polsce. Platforma umożliwia rezerwację lekcji indywidualnych i grupowych, naukę przez interaktywne narzędzia oraz śledzenie postępów — wszystko w jednym miejscu.
-
----
-
-## Czym jest Sprelli?
-
-Sprelli to kompletna platforma edukacyjna, na której:
-
-- **Uczniowie** (i rodzice) mogą znaleźć zweryfikowanego korepetytora, zarezerwować lekcję i płacić bezpiecznie przez internet
-- **Korepetytorzy** budują swoją markę, zarządzają harmonogramem, sprzedają materiały edukacyjne i prowadzą lekcje bez żadnych zewnętrznych narzędzi
-- **Szkoły i instytucje** mogą korzystać z platformy jako narzędzia do uzupełniania edukacji
-
-Nasza misja: zdemokratyzować dostęp do wysokiej jakości korepetycji w Polsce.
+**Sprelli** is a modern educational marketplace connecting students with verified tutors in Poland. The platform enables booking individual and group lessons, learning through interactive tools, and tracking progress — all in one place.
 
 ---
 
-## Dla uczniów
+## What is Sprelli?
 
-- **Szukaj i filtruj** nauczycieli według przedmiotu, poziomu, ceny i dostępności
-- **Rezerwuj lekcje** indywidualne lub grupowe z weryfikowanymi korepetytorami
-- **Ucz się online** w dedykowanym Pokoju Lekcyjnym z wideo, tablicą, czatem i quizami
-- **Śledzij postępy** — XP, poziomy, seria dni nauki, osiągnięcia i cele
-- **Rozwiązuj quizy i minigry** przypisane przez nauczyciela lub publiczne
-- **Kupuj materiały edukacyjne** od nauczycieli z marketplace
-- **Zarządzaj kontem rodzicielskim** — panel dla rodziców dzieci
+Sprelli is a complete educational platform where:
 
----
+- **Students** (and parents) can find a verified tutor, book a lesson and pay securely online
+- **Tutors** build their brand, manage their schedule, sell educational materials and teach without any external tools
+- **Schools and institutions** can use the platform to complement their educational offering
 
-## Dla korepetytorów
-
-- **Profesjonalny profil** z opisem, stylami nauczania, certyfikatami i opiniami uczniów
-- **Elastyczny harmonogram** — precyzyjna kontrola dostępności, przerwy między lekcjami, dni wolne
-- **Lekcje indywidualne i grupowe** — pełne zarządzanie, rezerwacje, anulowania, przeniesienia
-- **Pokój Lekcyjny** z wideokonferencją, wspólną tablicą, materiałami i quizami na żywo
-- **Marketplace materiałów** — sprzedawaj PDFy, notatki, ćwiczenia bezpośrednio uczniom
-- **Tworzenie quizów i minigier** dla swoich uczniów (6 typów gier edukacyjnych)
-- **Weryfikacja tożsamości i kwalifikacji** — badge zaufania widoczny na profilu
-- **Panel statystyk** — zarobki, liczba uczniów, oceny, historia lekcji
-- **Program subskrypcji** — plany rozszerzające możliwości i obniżające prowizję
+Our mission: democratize access to high-quality tutoring in Poland.
 
 ---
 
-## Pokój Lekcyjny (LessonRoom)
+## For Students
 
-Własna, wbudowana przestrzeń do prowadzenia lekcji online:
-
-| Narzędzie | Opis |
-|-----------|------|
-| **Wideo** | Połączenie audio-wideo w czasie rzeczywistym |
-| **Tablica** | Współdzielona tablica do rysowania i pisania, eksport do PNG |
-| **Czat** | Wbudowany czat tekstowy |
-| **Quizy** | Nauczyciel wysyła quiz, uczeń rozwiązuje na żywo |
-| **Materiały** | Udostępnianie plików w trakcie lekcji |
-| **Minigry** | 6 typów interaktywnych gier edukacyjnych |
-| **Timer** | Odliczanie czasu lekcji widoczne dla nauczyciela |
-
-Lekcja grupowa obsługuje wielu uczestników z dynamiczną wyceną per osoba.
+- **Search and filter** tutors by subject, level, price and availability
+- **Book lessons** — individual or group — with verified tutors
+- **Learn online** in a dedicated Lesson Room with video, whiteboard, chat and quizzes
+- **Track progress** — XP points, levels, learning streaks, achievements and goals
+- **Solve quizzes and play educational games** assigned by your tutor or from the public library
+- **Buy educational materials** from tutors via the marketplace
+- **Parent account management** — dedicated panel for parents of children
 
 ---
 
-## System Gamifikacji
+## For Tutors
 
-Nauka na Sprelli to też zabawa. Platforma posiada pełny system motywacyjny:
-
-- **XP (punkty doświadczenia)** za ukończone lekcje, quizy, serie dni nauki
-- **9 poziomów** — od Początkującego do Kolosa Edukacji
-- **Streak** — seria kolejnych dni aktywności z nagrodami XP za milestone'y (3, 7, 14, 30, 60, 100 dni)
-- **Osiągnięcia** — odznaki w 6 kategoriach (lekcje, quizy, materiały, seria, społeczność, kamienie milowe)
-- **Cele nauki** — nauczyciel wyznacza cele z kamieniami milowymi, uczeń je realizuje
-- **Tablice wyników** i publiczne profile z przypiętymi osiągnięciami
+- **Professional profile** with bio, teaching styles, certificates and student reviews
+- **Flexible scheduling** — precise availability control, breaks between lessons, days off
+- **Individual and group lessons** — full management: bookings, cancellations, reschedules
+- **Lesson Room** with video conferencing, shared whiteboard, materials and live quizzes
+- **Materials marketplace** — sell PDFs, notes and exercises directly to students
+- **Quiz and mini-game creator** for your students (6 types of educational games)
+- **Identity and qualification verification** — trust badge visible on your public profile
+- **Statistics dashboard** — earnings, student count, ratings and lesson history
+- **Subscription plans** — expand your capabilities and reduce commission
 
 ---
 
-## Stos Technologiczny
+## Lesson Room
 
-Sprelli zbudowane jest na nowoczesnym, sprawdzonym stosie technologicznym:
+A fully built-in space for conducting online lessons:
+
+| Tool | Description |
+|------|-------------|
+| **Video** | Real-time audio and video connection |
+| **Whiteboard** | Shared drawing and writing board, PNG export |
+| **Chat** | Built-in text chat |
+| **Quizzes** | Tutor sends a quiz, student solves it live |
+| **Materials** | File sharing during the lesson |
+| **Mini-games** | 6 types of interactive educational games |
+| **Timer** | Lesson countdown visible to the tutor |
+
+Group lessons support multiple participants with dynamic per-person pricing.
+
+---
+
+## Gamification System
+
+Learning on Sprelli is also fun. The platform features a full motivation system:
+
+- **XP (experience points)** for completed lessons, quizzes and learning streaks
+- **9 levels** — from Beginner to Education Colossus
+- **Streak** — consecutive days of activity with XP rewards at milestones (3, 7, 14, 30, 60, 100 days)
+- **Achievements** — badges across 6 categories (lessons, quizzes, materials, streak, social, milestones)
+- **Learning goals** — tutor sets goals with milestones, student completes them
+- **Leaderboards** and public profiles with pinned achievements
+
+---
+
+## Tech Stack
+
+Sprelli is built on a modern, battle-tested technology stack:
 
 **Frontend**
 - Next.js 16 (App Router) + React 19 + TypeScript 5
-- Tailwind CSS 4 — responsywny design, dark mode
-- PWA — instalowalna aplikacja na telefonach
+- Tailwind CSS 4 — responsive design, dark mode
+- PWA — installable app on mobile devices
 
 **Backend**
-- Python + FastAPI — wydajne asynchroniczne API
-- PostgreSQL — relacyjna baza danych
-- Redis — sesje, kolejki zadań, WebSocket pub/sub
-- JWT authentication z automatycznym odświeżaniem tokenów
+- Python + FastAPI — high-performance async API
+- PostgreSQL — relational database
+- Redis — sessions, task queues, WebSocket pub/sub
+- JWT authentication with automatic token refresh
 
-**Infrastruktura**
-- Hosting frontend: Vercel (CDN globalny)
-- Hosting backend: Railway (auto-scaling)
-- Storage plików: AWS S3 (region Europa)
-- Płatności: Stripe (karty, BLIK)
-- Email transakcyjny: Resend
-- CI/CD: GitHub Actions (testy automatyczne przy każdym PR)
+**Infrastructure**
+- Frontend hosting: Vercel (global CDN)
+- Backend hosting: Railway (auto-scaling)
+- File storage: AWS S3 (European region)
+- Payments: Stripe (cards, BLIK)
+- Transactional email: Resend
+- CI/CD: GitHub Actions (automated tests on every PR)
 
-**Bezpieczeństwo**
+**Security**
 - HTTPS + HSTS
-- Pełna zgodność z RODO / UODO
-- Rate limiting na endpointach rejestracji i logowania
+- Full GDPR / RODO compliance
+- Rate limiting on registration and login endpoints
 - Content Security Policy
-- Blokada botów AI (ochrona treści)
+- AI bot blocking (content protection)
 
 ---
 
-## Zgodność Prawna
+## Legal Compliance
 
-Platforma działa w pełnej zgodności z polskim i europejskim prawem:
+The platform operates in full compliance with Polish and European law:
 
-- **RODO** — eksport danych, usunięcie konta, zarządzanie zgodami marketingowymi
-- **CMP (Cookie Consent)** — granularne zarządzanie cookies z zapisem preferencji
-- **Regulamin**, Polityka Prywatności, Warunki dla Korepetytorów, Polityka Cookies — kompletna dokumentacja prawna
-- **Prawo odstąpienia od umowy** — widoczne przy każdej rezerwacji zgodnie z ustawą o usługach elektronicznych
-- **Obsługa sporów** — wbudowany system reklamacji i zwrotów
+- **GDPR / RODO** — data export, account deletion, marketing consent management
+- **CMP (Cookie Consent)** — granular cookie management with saved preferences
+- **Terms of Service**, Privacy Policy, Tutor Terms, Cookie Policy — complete legal documentation
+- **Right of withdrawal** — visible on every booking in accordance with the Electronic Services Act
+- **Dispute handling** — built-in complaint and refund system
 
 ---
 
-## Skala Projektu
+## Project Scale
 
-- **50+ stron** i podstron w aplikacji
-- **2 panele użytkownika** (uczeń + korepetytor) z pełną integracją API
-- **Panel administracyjny** z narzędziami moderacji, analityki, wypłat i marketingu
-- **25 landing page'y** przedmiotowych i miejskich pod SEO
-- **Blog edukacyjny** z artykułami dla uczniów i rodziców
-- **15+ szablonów email** transakcyjnych (weryfikacja, rezerwacja, przypomnienia, faktury)
-- **6 typów minigier** edukacyjnych z edytorem dla nauczycieli
-- **Program poleceń (referral)** z kodami i bonusami XP
+- **50+ pages** and subpages in the application
+- **2 user panels** (student + tutor) with full API integration
+- **Admin panel** with moderation, analytics, payouts and marketing tools
+- **25 SEO landing pages** by subject and city
+- **Educational blog** with articles for students and parents
+- **15+ transactional email templates** (verification, booking, reminders, invoices)
+- **6 types of educational mini-games** with a built-in editor for tutors
+- **Referral program** with codes and XP bonuses
 
 ---
 
 ## Status
 
-Platforma jest aktywnie rozwijana i przygotowywana do launchu na rynek polski.
+The platform is actively developed and being prepared for launch on the Polish market.
 
-**Kontakt:** kontakt@sprelli.com  
-**Strona:** [sprelli.com](https://sprelli.com)
+**Contact:** support@sprelli.com  
+**Website:** [sprelli.com](https://sprelli.com)
 
 ---
 
-*SPRELLI Sp. z o.o. — ul. Marszałkowska 58, 00-545 Warszawa*
+*SPRELLI Sp. z o.o. — Poland*
