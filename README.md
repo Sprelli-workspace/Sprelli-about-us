@@ -117,6 +117,43 @@ The platform operates in full compliance with Polish and European law:
 
 ---
 
+## SEO & GEO
+
+Sprelli is built with organic search and AI-driven discovery in mind from the ground up:
+
+**Content infrastructure**
+- **21 blog articles** targeting high-intent educational keywords (exam prep, subject guides, tutoring tips)
+- **Dynamic landing pages** for every subject × city combination — `/korepetycje/[subject]/[city]`
+- **Matura prep pages** — `/matura/[subject]` and `/matura/[subject]/[city]`
+- **Egzamin ósmoklasisty pages** — per subject, targeting middle school exam queries
+- **Education level pages** — `/korepetycje-dla/[poziom]` (primary, secondary, university)
+- **Online tutoring pages** — `/korepetycje-online/[city]` per major Polish city
+- **Competitor comparison pages** — `/sprelli-vs/[competitor]`
+- **Price guide** — `/ile-kosztuja-korepetycje` targeting high-volume cost queries
+
+**Technical SEO**
+- Dynamic XML sitemap generated at build time covering all routes and priorities
+- `robots.txt` with precise crawler rules — Googlebot permitted, content scrapers blocked
+- Canonical URLs on all pages to prevent duplicate content
+- Open Graph and Twitter Card meta on every page
+- `hreflang` tags for international targeting
+
+**Structured data (JSON-LD)**
+- `BreadcrumbList` — navigation context for all nested pages
+- `FAQPage` — rich results for FAQ and common questions
+- `Course` — tutor subject pages eligible for Google course rich results
+- `HowTo` — step-by-step guides (how to find a tutor, how to prepare for exams)
+- `Service` — platform and subject service schema
+- Teacher profile pages with individual structured data
+
+**GEO (Generative Engine Optimization)**
+- `X-Robots-Tag: noai, noimageai` — prevents content from being used in AI training datasets without consent
+- AI bot blocking middleware on the backend — 14 known AI crawlers return 403
+- Content structured for AI answer engines (clear headings, definitions, Q&A format in blog)
+- FAQ schema enabling Sprelli answers to appear directly in AI-generated search responses
+
+---
+
 ## Project Scale
 
 - **116 pages** and subpages in the application
@@ -124,8 +161,8 @@ The platform operates in full compliance with Polish and European law:
 - **Tutor panel** — 18 dedicated pages with full API integration
 - **Admin panel** — 40+ pages covering moderation, analytics, payouts, marketing and verification
 - **47 reusable components** across the frontend
-- **33 SEO landing pages** by subject and city
-- **Educational blog** with articles for students and parents
+- **21 blog articles** with SEO-targeted content
+- **Dynamic SEO landing pages** across subjects, cities, levels and exam types
 - **27 transactional email templates** (welcome, booking, cancellation, reschedule, refund, verification, group lessons, password reset and more)
 - **6 types of educational mini-games** with a built-in creator for tutors
 - **Referral program** with unique codes and XP bonuses
