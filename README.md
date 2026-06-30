@@ -227,12 +227,24 @@ Built for organic search and AI-driven discovery from day one:
 
 **Content**
 - **21 blog articles** targeting high-intent educational keywords
-- Dynamic landing pages for every subject × city combination — `/korepetycje/[subject]/[city]`
-- **Matura prep pages** — `/matura/[subject]` and `/matura/[subject]/[city]`
-- **Egzamin ósmoklasisty pages** — per subject, targeting middle school exam queries
-- **Education level pages** — `/korepetycje-dla/[poziom]`
-- **Online tutoring pages** — `/korepetycje-online/[city]` per major Polish city
-- **Competitor comparison pages** — `/sprelli-vs/[competitor]`
+- **Over 4,200 indexed URLs** generated dynamically from subject, city and level combinations:
+
+| URL pattern | Combinations | Count |
+|-------------|-------------|-------|
+| `/korepetycje/[subject]/[city]` | 35 subjects × 80 cities | 2,800 |
+| `/matura/[subject]/[city]` | 14 subjects × 80 cities | 1,120 |
+| `/korepetycje/[subject]/poziom/[level]` | 35 subjects × 4 levels | 140 |
+| `/korepetycje-online/[city]` | 80 cities | 80 |
+| `/korepetycje/[subject]` | 35 subjects | 35 |
+| `/matura/[subject]` | 14 subjects | 14 |
+| `/sprelli-vs/[competitor]` | 8 competitors | 8 |
+| `/egzamin-osmoklasisty/[subject]` | 4 subjects | 4 |
+| Static + blog + other | — | ~60 |
+| **Total** | | **~4,261** |
+
+- **35 subjects** covered — from mathematics, languages and sciences to programming and music
+- **80 Polish cities** — full nationwide geographic coverage
+- **Competitor comparison pages** — direct SEO targeting of alternative platform searches
 - **Price guide, how-to guides, FAQ** — high-volume informational queries
 
 **Technical SEO**
@@ -265,7 +277,7 @@ Built for organic search and AI-driven discovery from day one:
 - **28 backend API modules**
 - **54+ database tables**
 - **21 blog articles** with SEO-targeted content
-- **Dynamic SEO landing pages** across subjects, cities, levels and exam types
+- **4,261 dynamically generated URLs** — 35 subjects × 80 cities × levels × exam types
 - **27 transactional email templates**
 - **6 types of educational mini-games** with a built-in creator for tutors
 - **5 quiz templates** for rapid quiz creation
