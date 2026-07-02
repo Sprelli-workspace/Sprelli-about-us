@@ -1,6 +1,6 @@
-# Sprelli — Online Tutoring Platform
+# Sprelli - Online Tutoring Platform
 
-**Sprelli** is a modern educational marketplace connecting students with verified tutors in Poland. The platform enables booking individual and group lessons, real-time learning through interactive tools, progress tracking, and content monetization — all in one place, without any external tools.
+**Sprelli** is a modern educational marketplace connecting students with verified tutors in Poland. The platform enables booking individual and group lessons, real-time learning through interactive tools, progress tracking, and content monetization - all in one place, without any external tools.
 
 ---
 
@@ -34,26 +34,26 @@ Our mission: democratize access to high-quality tutoring in Poland.
 ## For Tutors
 
 - **Professional public profile** with bio, teaching style tags, certificates, student reviews and pinned achievements
-- **Flexible availability management** — weekly schedule, per-slot duration, break configuration, days off
-- **Individual lessons** — bookings, cancellations (always 100% refund), reschedule proposals with counter-offer flow
-- **Group lessons** — dynamic per-person pricing, participant queue, accept/reject flow, 4-hour payment deadline timer
-- **Lesson Room** — built-in video, whiteboard, chat, quizzes and mini-games, no external tools needed
-- **Materials marketplace** — upload PDFs, set visibility (private / share with students / marketplace), sell with lifetime or time-limited access
-- **Quiz creator** — 5 built-in templates, assign to students or publish publicly (unlocked after 20 lessons)
-- **Mini-game editor** — 6 game types, assign to students or publish
+- **Flexible availability management** - weekly schedule, per-slot duration, break configuration, days off
+- **Individual lessons** - bookings, cancellations (always 100% refund), reschedule proposals with counter-offer flow
+- **Group lessons** - dynamic per-person pricing, participant queue, accept/reject flow, 4-hour payment deadline timer
+- **Lesson Room** - built-in video, whiteboard, chat, quizzes and mini-games, no external tools needed
+- **Materials marketplace** - upload PDFs, set visibility (private / share with students / marketplace), sell with lifetime or time-limited access
+- **Quiz creator** - 5 built-in templates, assign to students or publish publicly (unlocked after 20 lessons)
+- **Mini-game editor** - 6 game types, assign to students or publish
 - **Identity and qualification verification** — document upload, trust badge visible on profile
-- **Earnings dashboard** — revenue history, monthly breakdown, weekly stats, payout management
-- **Subscription plans** — tiered plans reducing platform commission and expanding capabilities
-- **Stripe Connect** — direct payout setup via Stripe for receiving earnings
-- **Onboarding tutorial** — interactive step-by-step guide for new tutors
-- **Statistics panel** — lessons count, student count, average rating, income over time
-- **Real-time notifications** — new bookings, payment confirmations, student messages, review alerts
+- **Earnings dashboard** - revenue history, monthly breakdown, weekly stats, payout management
+- **Subscription plans** - tiered plans reducing platform commission and expanding capabilities
+- **Stripe Connect** - direct payout setup via Stripe for receiving earnings
+- **Onboarding tutorial** - interactive step-by-step guide for new tutors
+- **Statistics panel** - lessons count, student count, average rating, income over time
+- **Real-time notifications** - new bookings, payment confirmations, student messages, review alerts
 
 ---
 
 ## Lesson Room
 
-A fully built-in space for conducting online lessons — no Zoom, no Google Meet needed:
+A fully built-in space for conducting online lessons - no Zoom, no Google Meet needed:
 
 | Tool | Description |
 |------|-------------|
@@ -75,11 +75,11 @@ Group lesson rooms support multiple participants simultaneously.
 Learning on Sprelli is also fun. The platform features a full motivation system for both students and tutors:
 
 - **XP (experience points)** earned for completed lessons, quizzes, streaks and achievements
-- **9 levels** — from Beginner to Education Colossus — with custom SVG icons per level
-- **Streak** — consecutive days of activity with XP milestone rewards (3, 7, 14, 30, 60, 100 days)
-- **Achievements** — badges across 6 categories: lessons, quizzes, materials, streak, social, milestones
-- **Pinned achievements** — up to 3 badges displayed on the public profile
-- **Learning goals** — tutor creates goals with milestones, student marks them complete
+- **9 levels** - from Beginner to Education Colossus — with custom SVG icons per level
+- **Streak** - consecutive days of activity with XP milestone rewards (3, 7, 14, 30, 60, 100 days)
+- **Achievements** - badges across 6 categories: lessons, quizzes, materials, streak, social, milestones
+- **Pinned achievements** - up to 3 badges displayed on the public profile
+- **Learning goals** - tutor creates goals with milestones, student marks them complete
 - **XP leaderboard** and public creator profiles
 
 ---
@@ -100,9 +100,9 @@ Tutors can monetize their educational content:
 ## Booking & Payments
 
 - Full booking flow with calendar-based slot selection
-- **Stripe** integration — card payments and BLIK (Polish instant payment)
-- **Right of withdrawal** checkbox — legally required, visible on every booking
-- Idempotent payment processing — no double charges
+- **Stripe** integration - card payments and BLIK (Polish instant payment)
+- **Right of withdrawal** checkbox - legally required, visible on every booking
+- Idempotent payment processing - no double charges
 - Automatic refunds on teacher cancellation (always 100%)
 - Group lessons with partial payment tracking per participant
 - Reschedule proposal → counter-offer → accept/reject flow
@@ -128,7 +128,7 @@ A full-featured internal management system with 40 pages:
 | **Dashboard** | Revenue KPIs, lesson counts, new registrations, support ticket overview |
 | **Users** | List, search, filter, view profiles, manage roles, ban/unban |
 | **Teachers** | Verification queue, document review, approve/reject with feedback |
-| **Lessons** | All platform lessons — filter by status, teacher, date |
+| **Lessons** | All platform lessons - filter by status, teacher, date |
 | **Group lessons** | Platform-wide group lesson management |
 | **Payments** | Transaction list, hold/release payouts, commission tracking |
 | **Payouts** | Tutor payout management with filters and status tracking |
@@ -164,8 +164,8 @@ A full-featured internal management system with 40 pages:
 Built on **WebSockets** with **Redis pub/sub**:
 
 - Live lesson chat (student ↔ tutor, per lesson room)
-- Collaborative whiteboard — shared drawing state synced in real time
-- Real-time notifications — lesson start alerts, reschedule requests, payment confirmations
+- Collaborative whiteboard - shared drawing state synced in real time
+- Real-time notifications - lesson start alerts, reschedule requests, payment confirmations
 - Group lesson participant status updates
 - Quiz delivery and result collection during live lessons
 
@@ -175,17 +175,17 @@ Built on **WebSockets** with **Redis pub/sub**:
 
 **Frontend**
 - Next.js 16 (App Router) + React 19 + TypeScript 5
-- Tailwind CSS 4 — responsive design, full dark mode support
+- Tailwind CSS 4 - responsive design, full dark mode support
 - PWA — installable app on mobile (Android + iOS)
 - Lucide React icons, custom CSS animation system
 
-**Backend — 28 API modules**
+**Backend - 28 API modules**
 - Python + FastAPI — high-performance async API
-- PostgreSQL — relational database (54+ tables)
-- Redis — sessions, WebSocket pub/sub, task queues, token blacklist
+- PostgreSQL - relational database (54+ tables)
+- Redis - sessions, WebSocket pub/sub, task queues, token blacklist
 - JWT authentication (15-minute access token + 30-day httpOnly refresh cookie)
 - Gunicorn + Uvicorn workers (4 workers in production)
-- Alembic — database migrations
+- Alembic - database migrations
 
 **Infrastructure**
 - Frontend: Vercel (global CDN, auto-deploy on push)
@@ -200,7 +200,7 @@ Built on **WebSockets** with **Redis pub/sub**:
 - HTTPS + HSTS (2 years, preload)
 - Content Security Policy (full whitelist)
 - Rate limiting on registration (3/min) and login (5/min) endpoints
-- AI bot blocking middleware — 14 known crawlers blocked with 403
+- AI bot blocking middleware - 14 known crawlers blocked with 403
 - Source maps disabled in production
 - Admin panel isolated login (separate from user auth)
 - CORS restricted to `sprelli.com` only
@@ -213,11 +213,11 @@ Built on **WebSockets** with **Redis pub/sub**:
 The platform operates in full compliance with Polish and European law:
 
 - **GDPR / RODO** — data export, account deletion, granular marketing consent management
-- **CMP (Cookie Consent)** — granular cookie manager with saved preferences per category
-- **Right of withdrawal** — legally prescribed text visible on every booking (Electronic Services Act)
-- **6 legal documents** — Terms of Service, Privacy Policy, Tutor Terms, Cookie Policy, Payment Terms, Complaints Policy
-- **Dispute & refund system** — built-in complaint flow with partial and full refund support
-- **Compliance router** — dedicated backend module for all GDPR operations
+- **CMP (Cookie Consent)** - granular cookie manager with saved preferences per category
+- **Right of withdrawal** - legally prescribed text visible on every booking (Electronic Services Act)
+- **6 legal documents** - Terms of Service, Privacy Policy, Tutor Terms, Cookie Policy, Payment Terms, Complaints Policy
+- **Dispute & refund system** - built-in complaint flow with partial and full refund support
+- **Compliance router** - dedicated backend module for all GDPR operations
 
 ---
 
@@ -239,17 +239,17 @@ Built for organic search and AI-driven discovery from day one:
 | `/matura/[subject]` | 14 subjects | 14 |
 | `/sprelli-vs/[competitor]` | 8 competitors | 8 |
 | `/egzamin-osmoklasisty/[subject]` | 4 subjects | 4 |
-| Static + blog + other | — | ~60 |
+| Static + blog + other | - | ~60 |
 | **Total** | | **~4,261** |
 
-- **35 subjects** covered — from mathematics, languages and sciences to programming and music
-- **80 Polish cities** — full nationwide geographic coverage
-- **Competitor comparison pages** — direct SEO targeting of alternative platform searches
-- **Price guide, how-to guides, FAQ** — high-volume informational queries
+- **35 subjects** covered - from mathematics, languages and sciences to programming and music
+- **80 Polish cities** - full nationwide geographic coverage
+- **Competitor comparison pages** - direct SEO targeting of alternative platform searches
+- **Price guide, how-to guides, FAQ** - high-volume informational queries
 
 **Technical SEO**
 - Dynamic XML sitemap covering all routes with priorities
-- `robots.txt` — Googlebot permitted, scrapers blocked
+- `robots.txt` - Googlebot permitted, scrapers blocked
 - Canonical URLs, Open Graph, Twitter Card meta on every page
 - `hreflang` for international targeting
 - Custom 404 that doesn't expose internal paths
@@ -259,7 +259,7 @@ Built for organic search and AI-driven discovery from day one:
 - Teacher profile pages with individual structured data
 
 **GEO (Generative Engine Optimization)**
-- `X-Robots-Tag: noai, noimageai` — content protection from AI training
+- `X-Robots-Tag: noai, noimageai` - content protection from AI training
 - AI bot blocking middleware (14 crawlers → 403)
 - Content structured for AI answer engines (headings, Q&A format, definitions)
 - FAQ schema enabling Sprelli answers in AI-generated search responses
@@ -269,15 +269,15 @@ Built for organic search and AI-driven discovery from day one:
 ## Project Scale
 
 - **116 pages** and subpages in the application
-- **Student panel** — 16 dedicated pages with full API integration
-- **Tutor panel** — 18 dedicated pages with full API integration
-- **Admin panel** — 40 pages covering every aspect of platform management
-- **42 public pages** — landing pages, SEO content, legal documents, auth flows
+- **Student panel** - 16 dedicated pages with full API integration
+- **Tutor panel** - 18 dedicated pages with full API integration
+- **Admin panel** - 40 pages covering every aspect of platform management
+- **42 public pages** - landing pages, SEO content, legal documents, auth flows
 - **47 reusable frontend components**
 - **28 backend API modules**
 - **54+ database tables**
 - **21 blog articles** with SEO-targeted content
-- **4,261 dynamically generated URLs** — 35 subjects × 80 cities × levels × exam types
+- **4,261 dynamically generated URLs** - 35 subjects × 80 cities × levels × exam types
 - **27 transactional email templates**
 - **6 types of educational mini-games** with a built-in creator for tutors
 - **5 quiz templates** for rapid quiz creation
